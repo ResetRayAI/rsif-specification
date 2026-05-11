@@ -1,10 +1,4 @@
-Commit message:
 
-```text
-Fix README markdown structure and semantic formatting
-```
-
-````md
 # RSIF — ResetRay Structured Imaging Format
 
 **Semantic infrastructure for AI-readable imaging data.**  
@@ -312,4 +306,4 @@ RU: https://resetray.ru
 COM: https://resetray.com
 
 GitHub Organization: https://github.com/ResetRayAI
-````
+
