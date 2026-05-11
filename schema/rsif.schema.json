@@ -1,0 +1,21 @@
+{
+  "title": "RSIF Public Schema",
+  "type": "object",
+  "properties": {
+    "rsif_version": {
+      "type": "string"
+    },
+    "format_name": {
+      "type": "string"
+    },
+    "document_type": {
+      "type": "string"
+    },
+    "technical_measurements": {
+      "type": "object"
+    },
+    "scope": {
+      "type": "object"
+    }
+  }
+}
