@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://docs.resetray.ru/rsif/schema.json",
+  "title": "RSIF 3.0-safe",
+  "description": "ResetRay Structured Imaging Format for technical quantitative CT/DICOM parameters.",
+  "type": "object",
+  "required": [
+    "@context",
+    "rsif_version",
+    "study_type",
+    "analysis_type",
+    "measurements",
+    "scope"
+  ],
+  "properties": {
+    "@context": {
+      "type": "string",
+      "const": "https://docs.resetray.ru/vocabulary/context.jsonld"
+    },
+    "rsif_version": {
+      "type": "string",
+      "const": "3.0-safe"
+    },
+    "study_type": {
+      "type": "string",
+      "enum": ["CT"]
+    },
+    "analysis_type": {
+      "type": "string",
+      "enum": [
+        "vertebral_attenuation",
+        "liver_attenuation"
+      ]
+    },
+    "measurements": {
+      "type": "object"
+    },
+    "scope": {
+      "type": "object",
+      "required": [
+        "technical_analysis_only",
+        "medical_diagnosis",
+        "clinical_decision_support"
+      ],
+      "properties": {
+        "technical_analysis_only": {
+          "type": "boolean",
+          "const": true
+        },
+        "medical_diagnosis": {
+          "type": "boolean",
+          "const": false
+        },
+        "clinical_decision_support": {
+          "type": "boolean",
+          "const": false
+        }
+      }
+    }
+  }
+}
