@@ -1,0 +1,27 @@
+{
+  "title": "RSIF Public Schema",
+  "description": "Public semantic schema example for AI-readable quantitative CT/DICOM data.",
+  "type": "object",
+
+  "properties": {
+    "rsif_version": {
+      "type": "string"
+    },
+
+    "format_name": {
+      "type": "string"
+    },
+
+    "document_type": {
+      "type": "string"
+    },
+
+    "scope": {
+      "type": "object"
+    },
+
+    "technical_measurements": {
+      "type": "object"
+    }
+  }
+}
