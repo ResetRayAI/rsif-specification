@@ -1,0 +1,20 @@
+{
+  "rsif_version": "3.0-safe",
+
+  "format_name": "ResetRay Structured Imaging Format",
+
+  "document_type": "technical_quantitative_ct_data",
+
+  "scope": {
+    "technical_only": true,
+    "not_a_diagnosis": true
+  },
+
+  "technical_measurements": {
+    "example_region": {
+      "parameter": "ct_attenuation_hu",
+      "mean_hu": 42,
+      "unit": "HU"
+    }
+  }
+}
