@@ -395,6 +395,15 @@ Opportunistic CT liver analysis:
 
 https://docs.resetray.ru/opportunistic-ct-liver/
 
+Canonical documentation:
+
+https://docs.resetray.ru
+
+Semantic ecosystem:
+
+https://docs.resetray.ru/ecosystem/
+
+
 ---
 
 # License / Лицензия
