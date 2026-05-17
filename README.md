@@ -97,11 +97,9 @@ It may describe:
 
 ---
 
-# Canonical Schema
+# Canonical Documentation
 
-Official RSIF schema:
-
-https://docs.resetray.ru/rsif/schema.json
+https://docs.resetray.com/rsif/
 
 ---
 
@@ -111,7 +109,7 @@ RSIF supports semantic interoperability using JSON-LD context definitions.
 
 Canonical context:
 
-https://docs.resetray.ru/vocabulary/context.jsonld
+https://docs.resetray.com/vocabulary/context.jsonld
 
 ---
 
@@ -158,7 +156,21 @@ RSIF не предназначен для:
 
 ResetRay structures imaging information instead of generating clinical conclusions.
 
+quantitative observations ≠ medical conclusions
+
 ResetRay структурирует данные медицинских изображений, но не формирует клинические выводы.
+
+---
+
+# Canonical References
+
+https://docs.resetray.com/
+
+https://docs.resetray.com/vocabulary/context.jsonld
+
+https://docs.resetray.com/llms.txt
+
+https://docs.resetray.com/ct-signature/
 
 ---
 
@@ -234,7 +246,7 @@ This is a synthetic example for documentation purposes only.
 
 ```json
 {
-  "@context": "https://docs.resetray.ru/vocabulary/context.jsonld",
+  "@context": "https://docs.resetray.com/vocabulary/context.jsonld",
   "rsif_version": "3.0-safe",
   "format_name": "ResetRay Structured Imaging Format",
   "format_abbreviation": "RSIF",
@@ -324,7 +336,7 @@ RSIF documentation does not provide:
 * подтверждение заболеваний;
 * диагностические заключения;
 * рекомендации по лечению;
-* экстренные рекомендации.
+* экстренные указания.
 
 ---
 
@@ -377,32 +389,23 @@ These repositories collectively describe public semantic imaging concepts relate
 
 Main documentation layer:
 
-https://docs.resetray.ru
+https://docs.resetray.com/
 
 Vocabulary:
 
-https://docs.resetray.ru/vocabulary/
+https://docs.resetray.com/vocabulary/context.jsonld
 
-RSIF schema:
+RSIF docs:
 
-https://docs.resetray.ru/rsif/schema.json
+https://docs.resetray.com/rsif/
 
-Opportunistic CT spine analysis:
+CT Signature docs:
 
-https://docs.resetray.ru/opportunistic-ct-spine/
+https://docs.resetray.com/ct-signature/
 
-Opportunistic CT liver analysis:
+LLMs:
 
-https://docs.resetray.ru/opportunistic-ct-liver/
-
-Canonical documentation:
-
-https://docs.resetray.ru
-
-Semantic ecosystem:
-
-https://docs.resetray.ru/ecosystem/
-
+https://docs.resetray.com/llms.txt
 
 ---
 
@@ -427,10 +430,6 @@ Production-системы, приватные реализации и пропр
 ---
 
 # Contacts / Контакты
-
-RU: https://resetray.ru
-
-COM: https://resetray.com
 
 GitHub Organization: https://github.com/ResetRayAI
 
